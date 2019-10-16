@@ -1,0 +1,40 @@
+$mainFont : "Montserrat", sans-serif;
+$mainColor : #fff;
+$markColor : #18d26e;
+
+@import "GeneralBody";
+/* Back to top icon  */
+@import "_back-to-top" ;
+/* start header */
+@import "_header" ;
+/*start nav */
+@import "_navbar";
+/* start intro */
+@import "_intro";
+/* start featured-services */
+@import "_featured-services";
+/* section header */
+@import "_section-header";
+/* start about */
+@import "_about";
+/* start sevices */
+@import "_services";
+/* start call action */
+@import "_call";
+/* start skills */
+@import "_skills";
+/* start facts  */
+@import "_facts";
+/* start portfolio */
+@import "_portfolio";
+/* start clients */
+@import "_clients";
+/* start testiminoials */
+@import "_testimonials";
+/* start team  */
+@import "_team";
+/* start contact */
+@import "_contact";
+/* Start Footer */
+@import "_footer";
+

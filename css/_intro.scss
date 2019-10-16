@@ -1,0 +1,73 @@
+#intro .carousel-item img {
+    height: 100vh;
+  }
+  
+  #intro .carousel-item::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+  
+  #intro .carousel-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+   
+            justify-content: center;
+   
+            align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #intro .carousel-content {
+    text-align: center;
+  }
+  
+  #intro h2 {
+    color: $mainColor ;
+    margin-bottom: 30px;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  
+  #intro p {
+    width: 80%;
+    margin: 0 auto 30px auto;
+    color: $mainColor ;
+  }
+  
+  #intro .carousel-indicators li {
+    cursor: pointer;
+  }
+  
+  #intro .btn-get-started {
+    font-family: $mainFont ;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 32px;
+    border-radius: 50px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    margin: 10px;
+    color: $mainColor ;
+    background: $markColor ;
+  }
+  
+  #intro .btn-get-started:hover {
+    background: $mainColor ;
+    color: $markColor ;
+    text-decoration: none;
+  }
+  

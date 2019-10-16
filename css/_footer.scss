@@ -1,0 +1,101 @@
+#footer {
+    background: #000;
+    padding: 0 0 30px 0;
+    color: #eee;
+    font-size: 14px;
+    .footer-top {
+      background: #111;
+      padding: 60px 0 30px 0;
+      .footer-info h1 a {
+        font-size: 34px;
+        line-height: 1;
+        font-family: $mainFont ;
+        font-weight: 700;
+        letter-spacing: 3px;
+        padding-left: 10px;
+        border-left: 4px solid $markColor ;
+        color: $mainColor ;
+        text-decoration: none;
+        p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 0;
+        font-family: "Raleway", sans-serif;
+        color: $mainColor ;
+      }
+      }
+      .footer-links {
+        margin-bottom: 30px;
+        h4 {
+          font-size: 14px;
+          font-weight: bold;
+          color: $mainColor ;
+          text-transform: uppercase;
+          position: relative;
+          padding-bottom: 12px;
+          border-bottom: 2px solid $markColor ;
+        }
+        ul {
+          padding: 0;
+          margin: 0;
+          i {
+            padding-right: 5px;
+            color: $markColor ;
+            font-size: 18px;
+          }
+          li {
+            border-bottom: 1px solid #262c44;
+            padding: 10px 0;
+          }
+          a {
+            text-decoration: none;
+            color: #eee;
+            transition: all 0.3s;
+          }
+          
+        }
+      }
+      .footer-contact h4 {
+        font-size: 14px;
+        font-weight: bold;
+        color: $mainColor ;
+        text-transform: uppercase;
+        position: relative;
+        padding-bottom: 12px;
+        border-bottom: 2px solid $markColor ;
+        p {
+          font-size: 14px;
+          line-height: 24px;
+          margin-bottom: 30px;
+          font-family: "Raleway", sans-serif;
+          color: #eee !important;
+          line-height: 26px;
+        }
+      }
+      .social-links a {
+        font-size: 18px;
+        display: inline-block;
+        background: #222636;
+        color: #eee;
+        line-height: 1;
+        padding: 8px 0;
+        margin-right: 4px;
+        border-radius: 50%;
+        text-align: center;
+        width: 36px;
+        height: 36px;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+      }
+    }
+  }
+  
+  #footer .footer-top .footer-links ul a:hover {
+    color: $markColor ;
+  }
+  
+  #footer .footer-top .social-links a:hover {
+    background: $markColor ;
+    color: $mainColor ;
+  }
+  

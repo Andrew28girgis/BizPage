@@ -1,0 +1,39 @@
+#call {
+    padding: 60px 0;
+    background: url(../images/call-to-action-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    h2 {
+      color: $mainColor ;
+      text-align: center;
+      font-weight: 700;
+    }
+    p {
+  
+      display: flex;
+      justify-content: center;
+      color: $mainColor ;
+      margin-bottom: 0px !important;
+    }
+    .call-action {
+      font-family: $mainFont ;
+      font-weight: 500;
+      font-size: 17px;
+      letter-spacing: 1px;
+      margin-top: 50px;
+      background: none;
+      border-radius: 25px;
+      border: 2px solid $mainColor ;
+      color: $mainColor ;
+      padding: 10px 40px 10px 40px;
+      text-transform: uppercase;
+      text-align: center;
+      -webkit-transition: all 0.5s;
+      transition: all 0.5s;
+    }
+    .call-action:hover {
+      background: $markColor ;
+      border: 2px solid $markColor ;
+    }
+  }

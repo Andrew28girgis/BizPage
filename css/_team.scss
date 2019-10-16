@@ -1,0 +1,72 @@
+#team {
+    padding: 60px 0 60px 0;
+    background: $mainColor ;
+    .member {
+      text-align: center;
+      margin-bottom: 20px;
+      background: #000;
+      position: relative;
+      .member-info {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-transition: 0.2s;
+        transition: 0.2s;
+        opacity: 0;
+      }
+      .member-info-content {
+        margin-left: -50px;
+        -webkit-transition: all 0.4s;
+        transition: all 0.4s;
+        margin-left: 0;
+      }
+      h4 {
+        font-weight: 700;
+        margin-bottom: 2px;
+        font-size: 18px;
+        color: $mainColor ;
+      }
+      span {
+        font-style: italic;
+        display: block;
+        font-size: 13px;
+        color: $mainColor ;
+      }
+      .social {
+        margin-top: 15px;
+        a {
+          -webkit-transition: none;
+          transition: none;
+          color: $mainColor ;
+        }
+        i {
+          font-size: 18px;
+          margin: 0 2px;
+        }
+      }
+    }
+  } 
+  
+  #team .member:hover .member-info {
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  
+  #team .member .social a:hover {
+    color: $markColor ;
+  }
+  
+  
